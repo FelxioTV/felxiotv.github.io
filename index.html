@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexioTV Minecraft Community Survival Server</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-container">
+        <header>
+            <div class="container">
+                <h1>Willkommen auf dem FlexioTV Minecraft Community Survival Server</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#about">Über den Server</a></li>
+                        <li><a href="#wiki">Wiki</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="about" class="content">
+            <div class="container">
+                <h2>Über den Server</h2>
+                <p>Willkommen auf dem FlexioTV Minecraft Community Survival Server! Schließe dich unserer lebendigen Community an, baue gemeinsam mit anderen Spielern und erlebe spannende Abenteuer im Survival-Modus. Unser Server bietet dir eine freundliche Atmosphäre, spannende Events und eine Menge Spaß!</p>
+            </div>
+        </section>
+
+        <section id="wiki" class="content">
+            <div class="container">
+                <h2>Wiki</h2>
+                <div class="wiki-navigation">
+                    <button class="wiki-btn" onclick="showWikiPage('rules')">Server-Regeln</button>
+                    <button class="wiki-btn" onclick="showWikiPage('commands')">Wichtige Befehle</button>
+                    <button class="wiki-btn" onclick="showWikiPage('events')">Community-Events</button>
+                    <button class="wiki-btn" onclick="showWikiPage('faq')">Häufig gestellte Fragen</button>
+                </div>
+                <div id="wiki-content">
+                    <!-- Inhalt wird hier dynamisch durch JavaScript geladen -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="content">
+            <div class="container">
+                <h2>Kontakt</h2>
+                <p>Verpasse keine Neuigkeiten und Events! Trete unserer Community bei:</p>
+                <div class="social-buttons">
+                    <a href="https://discord.com/invite/DEIN_DISCORD_LINK" target="_blank" class="social-btn discord">Discord</a>
+                    <a href="https://www.youtube.com/c/DEIN_YOUTUBE_KANAL" target="_blank" class="social-btn youtube">YouTube</a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-banner">
+                <h3>Bleib immer auf dem Laufenden!</h3>
+                <p>Folge uns auf YouTube und Discord, um keine Neuigkeiten zu verpassen.</p>
+            </div>
+            <div class="footer-content">
+                <p>&copy; 2024 FlexioTV. Alle Rechte vorbehalten.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
